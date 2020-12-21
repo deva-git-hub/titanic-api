@@ -125,8 +125,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [
-    BASE_DIR/'frontend/build/static',
-]
+
 
 CORS_ORIGIN_ALLOW_ALL = True
