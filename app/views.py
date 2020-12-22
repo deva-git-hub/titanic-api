@@ -16,6 +16,9 @@ def index(request):
 
 
 def show(request, age, sex, clas):
+    age = float(age)
+    sex = float(sex)
+    clas = float(clas)
     model = pickle.load(open("LRmodel", 'rb'))
     e = 2.71828
     coeff = model.coef_
