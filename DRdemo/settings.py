@@ -26,7 +26,7 @@ SECRET_KEY = ')hokuy!_6buvcow+7nq_h#_le=((x78h)b4y&t8yiks@b%vyo%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["arcane-basin-02731.herokuapp.com","127.0.0.1"]
 
 
 # Application definition
